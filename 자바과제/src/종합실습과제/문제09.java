@@ -13,7 +13,7 @@ public class 문제09 {
 		}
 		else {
 			System.out.println("유료입장");
-		}//2
+		}
 		
 
 	}
