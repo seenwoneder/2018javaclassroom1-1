@@ -9,6 +9,7 @@ public class 문제02 {
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		sc.close();
+		System.out.printf("두 정수: %d %d\n", a, b);
 		System.out.printf("몫: %d\n", a/b);
 		System.out.printf("나머지: %d", a%b);
 
