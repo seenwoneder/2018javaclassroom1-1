@@ -11,7 +11,7 @@ public class 문제08 {
 		System.out.printf("정수: %d\n",a);
 		System.out.printf("절댓값: %d", a<0 ? (a*-1) : a);
 		
-
+		sc.close();
 	}
 
 }

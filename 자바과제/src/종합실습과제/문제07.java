@@ -18,6 +18,7 @@ public class 문제07 {
 		System.out.printf("a NAND b: %d\n", ~(a&b));
 		System.out.printf("a NOR b: %d", ~(a|b));
 		
+		sc.close();
 		
 	}
 

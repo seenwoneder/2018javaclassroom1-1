@@ -15,7 +15,7 @@ public class 문제09 {
 			System.out.println("유료입장");
 		}
 		
-
+		sc.close();
 	}
 
 }
