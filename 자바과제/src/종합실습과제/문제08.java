@@ -5,14 +5,12 @@ import java.util.Scanner;
 public class 문제08 {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		if(a<0) {
-			System.out.printf("절댓값: %d", a*-1);
-		}
-		else {
-			System.out.printf("절댓값: %d", a);
-		}
+		Scanner sc=new Scanner(System.in);
+		sc.useDelimiter("\r|\n|,");
+		int a=sc.nextInt();
+		System.out.printf("정수: %d\n",a);
+		System.out.printf("절댓값: %d", a<0 ? (a*-1) : a);
+		
 
 	}
 
