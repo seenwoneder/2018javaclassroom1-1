@@ -8,7 +8,7 @@ public class 문제02 {
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		sc.close();
+		sc.close();  //ss
 		System.out.printf("몫: %d\n", a/b);
 		System.out.printf("나머지: %d", a%b);
 
