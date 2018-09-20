@@ -24,9 +24,9 @@ public class Test1 {
 
 		// 분석(2)
 		myClass1 = null;
-		System.out.println(myClass1.a);
+		//System.out.println(myClass1.a);
 		System.out.println(myClass1.b);
-		System.out.println(Test2.a);
+		//System.out.println(Test2.a);
 		System.out.println(Test2.b);
 
 		// 분석(3)
