@@ -3,7 +3,7 @@ package 제05차시;
 public class Test2 {
 	int a = 1, b = 2, c = 3;
 	int d = 1234;
-//
+
 	Test2() {
 		// 분석(1)
 		int a = 4;
