@@ -10,6 +10,7 @@ public class 문제18 {
 		{
 			System.out.printf("%c ", i);
 		}
+		sc.close();
 	}
 
 }
