@@ -10,6 +10,6 @@ public class Test2 {
 	void print() {
 		System.out.println("a=" + a);
 		System.out.println("b=" + b);
-	}
+	}//
 
 }

@@ -9,7 +9,7 @@ public class 문제18 {
 		for (char i = sc.next().charAt(0); i <= 90; i++)
 		{
 			System.out.printf("%c ", i);
-		}
+		} //
 	}
 
 }

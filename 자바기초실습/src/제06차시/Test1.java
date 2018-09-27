@@ -4,7 +4,6 @@ public class Test1 {
 	static int b = 999;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Test2 myClass1 = new Test2();
 		Test2 myClass2 = new Test2();
 		Test2 myClass3 = new Test2();
