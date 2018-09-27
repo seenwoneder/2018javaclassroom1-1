@@ -13,7 +13,8 @@ public class 문제25 {
 			sum+=i;
 			System.out.printf("%d ",sum);
 		}
-
+		sc.close();
+		
 	}
 
 }
