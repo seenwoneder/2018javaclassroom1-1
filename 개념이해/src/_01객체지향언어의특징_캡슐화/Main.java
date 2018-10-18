@@ -11,6 +11,7 @@ public class Main {
 		jf.setLocationRelativeTo(null);
 		jf.setVisible(true);
 		
+		
 	}
 
 }
