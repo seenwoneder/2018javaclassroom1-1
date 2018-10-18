@@ -8,4 +8,5 @@ public class Test2 extends Test1 {
 	void bark() {
 		System.out.println("야옹");
 	}
+	
 }

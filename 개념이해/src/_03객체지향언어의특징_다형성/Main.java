@@ -15,6 +15,7 @@ public class Main {
 		
 		Test2 t2 = new Test2();
 		t2.bark();
+		
 	}
 
 }

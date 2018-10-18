@@ -22,4 +22,5 @@ public class Test1 {
 		System.out.println("멍멍");
 	}
 	
+	
 }
