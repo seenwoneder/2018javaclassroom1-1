@@ -11,6 +11,7 @@ public class Main {
 		t.print(1, "1");
 		t.print("1", 1);
 		t.print("1", "1");
+		t.bark();
 	}
 
 }
