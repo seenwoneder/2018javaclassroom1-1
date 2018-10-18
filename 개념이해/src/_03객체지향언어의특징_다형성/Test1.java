@@ -18,4 +18,8 @@ public class Test1 {
 		System.out.println(a+b);
 	}
 	
+	void bark() {
+		System.out.println("멍멍");
+	}
+	
 }
