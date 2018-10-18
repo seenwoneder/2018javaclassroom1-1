@@ -4,6 +4,8 @@ import java.awt.Color;
 
 import javax.swing.JFrame;
 
-public class Test2 {
-	
+public class Test2 extends Test1 {
+	void bark() {
+		System.out.println("야옹");
+	}
 }
