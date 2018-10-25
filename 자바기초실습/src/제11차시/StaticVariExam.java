@@ -8,6 +8,7 @@ public class StaticVariExam {
 		Student bak = new Student();
 		System.out.println("생성된 학생 객체 수는 " + Student.count + "입니다.");
 
+		
 	}
 
 }
