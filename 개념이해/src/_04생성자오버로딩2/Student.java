@@ -4,20 +4,26 @@ public class Student {
 
 	String name;
 	int age;
+	
+	
 	Student(){
-		this("모름", -1);
+		name = "모름"
+		age = -1;
+		//this("모름", -1);
 	}
-	Student(String sname){
+	
+	Student(String name){
 		this(name, -1);
 	}
-	Student(int sage){
-		String name"모름";
-		this(name,age);
+	
+	Student(int age){
+		this("모름", age);
 	}
-	Student(String sname,int sage){
+	
+	Student(String name,int age){
 		
-		this.name = sname;
-		this.age = sage;
+		this.name = name;
+		this.age = age;
 		
 	}
 	
