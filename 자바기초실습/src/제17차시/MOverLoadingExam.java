@@ -8,5 +8,4 @@ public class MOverLoadingExam {
 		System.out.println(a.sum(10, 20));
 
 	}
-
 }
