@@ -1,8 +1,9 @@
 package 제19차시;
 
-public class Leader {
-	String name;
+public class Leader extends Student{
+
 	Leader(String a, String b, boolean c) {
+		super(a, b);
 		name = a;
 	}
 	
