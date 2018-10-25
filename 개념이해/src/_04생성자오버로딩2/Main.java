@@ -3,6 +3,7 @@ package _04생성자오버로딩2;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Student stu1 = new Student();
 		stu1.print();
 		
