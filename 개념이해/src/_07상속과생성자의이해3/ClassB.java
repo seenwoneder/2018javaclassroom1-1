@@ -14,5 +14,4 @@ public class ClassB {
 	String getGender() {
 		return gender;
 	}
-	
 }

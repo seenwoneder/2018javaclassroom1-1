@@ -9,5 +9,4 @@ public class Main {
 		System.out.println("키: " + ca.height);
 		System.out.println("성별: " + ca.getGender());
 	}
-
 }
