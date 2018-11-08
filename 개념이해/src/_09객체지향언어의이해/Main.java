@@ -15,6 +15,10 @@ public class Main {
 		mySon1 = (자식)myFather1;
 		mySon1.speak();
 		
+		자식 mySon2;
+		부모 myFather2 = new 부모();
+		mySon2 = myFather2;
+		
 	}
 
 }
