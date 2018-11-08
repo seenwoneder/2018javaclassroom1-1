@@ -13,5 +13,4 @@ public class 강아지 extends 동물{
 	void 무서워하다() {
 		System.out.println("낑낑");
 	}
-	
 }

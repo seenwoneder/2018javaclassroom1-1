@@ -9,4 +9,5 @@ public abstract class 동물 {
 	void 무서워하다() {
 		System.out.println("뒷걸음질치다.");
 	}
+	
 }
