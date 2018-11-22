@@ -17,6 +17,7 @@ public class Main {
 		
 		tw.repaint();
 		tw.revalidate();
+		
 	}
 
 }

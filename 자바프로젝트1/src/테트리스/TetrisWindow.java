@@ -132,6 +132,7 @@ public class TetrisWindow extends JFrame implements ActionListener, KeyListener 
 		tb.revalidate();
 	}
 	boolean haveBlockTroubles(int[][] 지금블록) {
+		getMinXMinYMaxXMaxY(지금블록);
 		
 		if(현재블록등장위치x + this.maxX > 9) return true;
 		if(현재블록등장위치x<0) return true;
@@ -182,7 +183,8 @@ public class TetrisWindow extends JFrame implements ActionListener, KeyListener 
 				}
 			}
 			
-			현재블록=회전블록;
+			if(haveBlockTroubles(회전블록)==false)
+				현재블록=회전블록;
 			
 			//블록 내부 조각의 존재 범위를 알아낸다.
 			getMinXMinYMaxXMaxY(현재블록);

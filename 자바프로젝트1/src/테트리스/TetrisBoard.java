@@ -30,6 +30,7 @@ public class TetrisBoard extends JPanel{
 			}
 		}
 		
+		
 		//게임판위에 현재블록 얹히기
 		for(int i=0; i<4; i++) {
 			for(int j=0; j<4; j++) {
