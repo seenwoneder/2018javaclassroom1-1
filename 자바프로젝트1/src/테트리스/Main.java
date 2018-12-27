@@ -4,20 +4,18 @@ import javax.swing.JPanel;
 
 public class Main {
 	public static void main(String[] args) {
-		TetrisWindow tw = new TetrisWindow();
-		TetrisBoard tb = new TetrisBoard();
+		TetrisWindow tw=new TetrisWindow();
+		TetrisBoard tb=new TetrisBoard();
 		tw.add(tb);
+		tb.setBounds(0, 0, 500, 650);
 		
-		tw.tb = tb;
-		tb.tw = tw;
+		tw.tb=tb;
+		tb.tw=tw;
 		
 		tw.initialize();
-		tw.drawTetrisBoard(1, 0, 0);
-		
+		tw.makeNewTetrisBlock();
 		
 		tw.repaint();
 		tw.revalidate();
-		
 	}
-
 }
